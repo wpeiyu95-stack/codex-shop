@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>旬味餐厅 | Seasonal Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="旬味餐厅首页">
+        <span class="brand-mark">旬</span>
+        <span>
+          <strong>旬味餐厅</strong>
+          <small>Seasonal Table</small>
+        </span>
+      </a>
+
+      <nav class="site-nav" data-nav aria-label="主导航">
+        <a href="#menu">菜单</a>
+        <a href="#story">理念</a>
+        <a href="#space">环境</a>
+        <a href="#booking">订位</a>
+      </nav>
+
+      <button class="nav-toggle" type="button" data-nav-toggle aria-label="打开导航" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-label="餐厅主视觉">
+        <img src="assets/restaurant-hero.png" alt="温暖灯光下的现代餐厅餐桌与精致菜品" />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">当季风味 · 开放厨房 · 晚餐与小酌</p>
+          <h1>把今晚，留给一张热气腾腾的餐桌。</h1>
+          <p class="hero-copy">
+            旬味餐厅用本地食材、炭火香气和细腻酒单，做一顿轻松却值得记住的晚餐。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#booking">立即订位</a>
+            <a class="button button-ghost" href="#menu">查看菜单</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="营业信息">
+          <span>今日晚餐</span>
+          <strong>17:30 - 22:30</strong>
+          <small>周末建议提前预约</small>
+        </aside>
+      </section>
+
+      <section class="intro">
+        <div>
+          <p class="eyebrow">Chef's Note</p>
+          <h2>餐盘要有季节感，也要有回家的松弛感。</h2>
+        </div>
+        <p>
+          我们每天根据市场到货调整小菜单：海鲜、蔬菜、香草和发酵调味都保留清晰层次。服务节奏不催促，适合约会、朋友聚餐，也适合一个人坐在吧台慢慢吃。
+        </p>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <div class="section-heading">
+          <p class="eyebrow">Seasonal Menu</p>
+          <h2>本周推荐</h2>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-item">
+            <span class="menu-index">01</span>
+            <h3>炭烤海鲈鱼</h3>
+            <p>柠檬百里香、烤甜椒汁、脆皮土豆。</p>
+            <strong>¥168</strong>
+          </article>
+          <article class="menu-item featured">
+            <span class="menu-index">02</span>
+            <h3>慢炖牛颊肉</h3>
+            <p>红酒汁、焦化洋葱泥、时令根茎蔬菜。</p>
+            <strong>¥188</strong>
+          </article>
+          <article class="menu-item">
+            <span class="menu-index">03</span>
+            <h3>手工野菌宽面</h3>
+            <p>榛子黄油、帕玛森、黑胡椒和新鲜香草。</p>
+            <strong>¥118</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="story" id="story">
+        <div class="story-copy">
+          <p class="eyebrow">Our Philosophy</p>
+          <h2>少一点套路，多一点火候、香气和真实食材。</h2>
+          <p>
+            旬味不追求复杂摆盘，而是让每一道菜有明确的主角。开放厨房保留炭火、锅气和手工制作的过程，让用餐不只是吃完一道菜，而是看见它如何来到桌上。
+          </p>
+        </div>
+        <div class="stats" aria-label="餐厅亮点">
+          <div>
+            <strong>18</strong>
+            <span>个吧台座位</span>
+          </div>
+          <div>
+            <strong>42</strong>
+            <span>款小众酒单</span>
+          </div>
+          <div>
+            <strong>7</strong>
+            <span>天更新小菜单</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="space" id="space">
+        <div class="section-heading">
+          <p class="eyebrow">Dining Room</p>
+          <h2>适合把时间慢下来的空间</h2>
+        </div>
+        <div class="space-grid">
+          <div class="space-shot large">
+            <span>开放厨房</span>
+          </div>
+          <div class="space-shot warm">
+            <span>吧台小酌</span>
+          </div>
+          <div class="space-shot green">
+            <span>半开放包间</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking" id="booking">
+        <div class="booking-copy">
+          <p class="eyebrow">Reservation</p>
+          <h2>预订今晚的位置</h2>
+          <p>留下信息后，我们会在营业时段内确认桌位。6 人以上聚餐可备注预算和偏好。</p>
+        </div>
+        <form class="booking-form" data-booking-form>
+          <label>
+            姓名
+            <input type="text" name="name" placeholder="你的称呼" required />
+          </label>
+          <label>
+            电话
+            <input type="tel" name="phone" placeholder="用于确认订位" required />
+          </label>
+          <label>
+            日期
+            <input type="date" name="date" required />
+          </label>
+          <label>
+            人数
+            <select name="guests" required>
+              <option value="">请选择</option>
+              <option>2 位</option>
+              <option>3-4 位</option>
+              <option>5-6 位</option>
+              <option>7 位以上</option>
+            </select>
+          </label>
+          <button class="button button-primary" type="submit">提交订位</button>
+          <p class="form-message" data-form-message role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>旬味餐厅</strong>
+        <span>上海市衡山路 88 号 · 021-8899-2026</span>
+      </div>
+      <a href="#home">返回顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
